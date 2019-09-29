@@ -25,7 +25,7 @@ end
 puts 
 
 def printer(names)
-  print batch_badge_creator(names)
+  print batch_badge_creator(names).split(,)
   print assign_rooms2(names)
 end
 printer(names)
